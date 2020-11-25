@@ -64,6 +64,7 @@
 .col:first-child {
   border: none;
   width: 500px;
+  margin-right: 20px;
 }
 
 .container {
@@ -78,7 +79,7 @@
 .blog {
   background-color: white;
   max-width: unset;
-  padding: 5% 10%;
+  padding: 5% 8%;
 }
 .blog .title {
   padding-top: 0;
