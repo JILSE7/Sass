@@ -17,7 +17,7 @@
 .col {
   border: 1px solid #ccc;
   border-radius: 2px;
-  flex-basis: 33.3%;
+  flex-basis: 500px;
   height: 560px;
   margin-right: 20px;
 }
