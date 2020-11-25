@@ -17,11 +17,13 @@
 .col {
   border: 1px solid #ccc;
   border-radius: 2px;
-  flex-basis: 30%;
+  width: 500px;
   height: 560px;
   margin-right: 20px;
 }
 .col .card {
+  display: flex;
+  flex-flow: column wrap;
   font-weight: bold;
   margin: 0 auto;
 }
@@ -61,6 +63,7 @@
 
 .col:first-child {
   border: none;
+  width: 500px;
 }
 
 .container {
@@ -68,7 +71,8 @@
 }
 .container .row {
   display: flex;
-  flex-flow: row nowrap;
+  flex-basis: 33.3%;
+  flex-wrap: nowrap;
 }
 
 .blog {

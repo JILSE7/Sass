@@ -4,7 +4,8 @@
     font-family: $font-body;
     .row {
         display: flex;
-        flex-flow: row nowrap;
+        flex-basis: 33.3%;
+        flex-wrap: nowrap;
     }
 }
 

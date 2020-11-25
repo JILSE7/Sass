@@ -2,10 +2,12 @@
 .col {
     border: 1px solid #ccc;
     border-radius: 2px;
-    flex-basis: 30%;
+    width: 500px;
     height: 560px;
     margin-right: 20px;
     .card {
+        display: flex;
+        flex-flow: column wrap;
         font-weight: bold;
         margin: 0 auto;
         .titulo {
@@ -46,4 +48,5 @@
 
 .col:first-child {
     border: none;
+    width: 500px;
 }
