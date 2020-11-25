@@ -4,6 +4,7 @@
     font-family: $font-body;
     .row {
         display: flex;
+        flex-flow: row wrap;
     }
 }
 
@@ -23,7 +24,6 @@
         .process {
             margin-bottom: 25px;
             /* Los ampersans hacen referencia al selector padre que es .process */
-            display: flex;
             align-items: center;
             &>div {
                 /* .process > div */
@@ -44,6 +44,7 @@
                 height: 60px;
                 margin-right: 10px;
                 text-align: center;
+                float: left;
                 img {
                     height: 100%;
                 }

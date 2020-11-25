@@ -17,7 +17,7 @@
 .col {
   border: 1px solid #ccc;
   border-radius: 2px;
-  flex-basis: 500px;
+  flex-basis: 320px;
   height: 560px;
   margin-right: 20px;
 }
@@ -68,6 +68,7 @@
 }
 .container .row {
   display: flex;
+  flex-flow: row wrap;
 }
 
 .blog {
@@ -87,7 +88,6 @@
 .blog .process-list .process {
   margin-bottom: 25px;
   /* Los ampersans hacen referencia al selector padre que es .process */
-  display: flex;
   align-items: center;
 }
 .blog .process-list .process > div {
@@ -109,6 +109,7 @@
   height: 60px;
   margin-right: 10px;
   text-align: center;
+  float: left;
 }
 .blog .process-list .process .process-icon img {
   height: 100%;
