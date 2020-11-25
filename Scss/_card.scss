@@ -1,0 +1,49 @@
+@import './global';
+.col {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    flex-basis: 33.3%;
+    height: 560px;
+    margin-right: 20px;
+    .card {
+        font-weight: bold;
+        margin: 0 auto;
+        .titulo {
+            padding: 0 9px;
+            text-align: center;
+            color: #555;
+        }
+        .fecha {
+            padding: 0 20px;
+            font-weight: bold;
+            font-size: 12px;
+            color: #555;
+            & span {
+                color: rgb(36, 228, 36);
+            }
+        }
+        .info {
+            padding: 10px;
+            font-weight: bold;
+            & a {
+                color: #555;
+            }
+        }
+        .contacto {
+            display: flex;
+            flex-wrap: nowrap;
+            img {
+                width: 50px;
+                border-radius: 100%;
+                margin-left: 10px;
+            }
+            p {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+.col:first-child {
+    border: none;
+}

@@ -1,0 +1,19 @@
+/** colores */
+
+$verde-titulo: #025157;
+$verde-p: #135359;
+$white: white;
+
+/** fuentes */
+
+$font-title: 'Abril Fatface',
+cursive;
+$font-body: 'Lato',
+sans-serif;
+
+/** placeholders */
+
+%base-title {
+    font-family: $font-title;
+    color: $verde-titulo;
+}
